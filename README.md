@@ -15,7 +15,7 @@ lsmod |grep 8723bu
 
 #if it doesn't work ,you need to check wheather the interface is using another driver
 
-dmesg |grep <wlan interface name>
+dmesg |grep [wlan interface name]
 
 #the promt should like this
 
